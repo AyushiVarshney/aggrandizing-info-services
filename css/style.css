@@ -1,0 +1,455 @@
+body, html{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+body h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+body p{
+    font-size:1.1rem;
+}
+
+.btn{
+    transition: all 0.3s ease-in-out;
+}
+
+.card{
+    margin-bottom:15px;
+}
+
+@media (max-width: 768px){
+    #home .first, .second, .third{
+        margin-bottom: 1rem;
+    }
+
+    #home .first, .third{
+        padding-right: 13px !important;
+    }
+
+    #home .second, .forth{
+        padding-left:13px !important;
+    }
+
+    #result .icon-div{
+        justify-content: center;
+        margin-bottom: 1rem;;
+    }
+
+    #result .content-div{
+        text-align: center !important;
+    }
+
+    #design-withus img{
+        margin-bottom: 2rem;
+    }
+
+    #website-designing .already-para{
+        text-align: center;
+    }
+
+    #website-designing .place-para{
+        margin-top: 2rem;
+    }
+
+    #data-entry img{
+        margin-bottom: 2rem;
+    }
+
+    #data-entry .we-provide .first{
+        padding-left:2.1rem;
+        padding-right: 2.1rem;
+    }
+
+    #bpo .second-img{
+        margin-bottom: 1rem;
+    }
+
+    #bpo h4{
+        text-align: center;
+    }
+
+    #inbound .col-md-3, #outbound .col-md-3{
+        justify-content: center;
+    }
+
+    #footer img {
+        margin-top: 1rem;
+        margin-left:auto;
+        margin-right:auto;
+        display: block;
+    }
+
+    #footer p, #footer h3, #footer li{
+        text-align: center;
+    }
+}
+
+.header{
+    color: white;
+    background-color: black;
+}
+
+.header .fab{
+    color:white;
+    font-size: 1rem;
+}
+
+.header i{
+    padding: 0 0.5rem;
+}
+
+.navbar{
+    /* background-color: rgba(21, 31, 33, 0.5); */
+    background-color: #fff;
+    padding:15px;
+    border-bottom: 1px solid #dedede;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: #000;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        text-decoration-thickness: 2px;
+}
+
+.navbar-toggler-icon{
+    color: #000;
+}
+
+.dropdown { 
+    position: static !important; 
+} 
+  
+.dropdown-menu { 
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important; 
+    margin-top: 0px !important; 
+    width: 100% !important; 
+}
+
+.dropdown-menu i {
+    padding-left: 1.5rem;
+}
+
+.dropdown-menu a:hover{
+    background-color:transparent;
+}
+
+.dropdownColumn:hover{
+    background-color: rgba(176,176, 176, 0.5);
+    border-radius: 5px;
+    /* color: #be2835; */
+    color:#4DE9F0;
+}
+
+.carousel-caption h5{
+    color: black;
+    font-size:3rem;
+    font-weight:700;
+    text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    color: rgba(0,0, 0, 0.5);
+}
+
+#slider{
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+}
+
+#home{
+    padding:4.25rem 0;
+}
+
+#home .custom-card, #website-designing .custom-card{
+    background-color: #f9f9f9;
+    padding:1rem;
+}
+
+#home .customLead{
+    font-size:1.25rem;
+    font-weight: 450;
+}
+
+.bigPara{
+    font-size:1.1rem;
+}
+
+#plan{
+    padding:4.25rem 0;
+    background-color: #f6f6f6;
+}
+
+#team{
+    padding:4.25rem 0;
+}
+
+#team h2, #team h3, #team p{
+    text-align: center;
+}
+/*about us*/
+
+#aboutus{
+    padding: 4.25rem 0;
+}
+
+#social .fab, #social .fas{
+    font-size: 1.25rem;
+    color: #be2835;
+    border: 1px solid #be2835;
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    text-align: center;
+    padding:30% 0;
+    margin-top: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+#social .fab:hover, #social .fas:hover{
+   background-color: #be2835;
+   color: #fff;
+}
+
+/*our-aim*/
+
+#our-aim{
+    background-color: #f6f6f6;
+    padding: 5rem 0;
+}
+
+#power{
+    padding:4.25rem 0;
+}
+
+#power h2{
+    text-align: center;
+    padding-bottom:1.25rem;
+}
+
+#team .round-card, #power .round-card{
+    border-radius: 1rem !important;
+    color: white;
+    background-color: #09A6BC;
+    opacity:0.9;
+}
+
+#power .shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+#result{
+    padding:4.25rem 0;
+    background-color: #f6f6f6;
+}
+
+#result img{
+    border-radius: 25%;
+}
+
+#result .spacing{
+    padding:2rem 0;
+}
+
+#result .alignRight{
+    text-align: right;
+}
+
+#result .fas, #result .fab{
+    font-size: 8rem;
+    color: #09A6BC;
+}
+
+/*why*/
+
+#why{
+    padding:5rem 0;
+    background-color: #f6f6f6;
+}
+
+#why .far, #why .fas{
+    color:#09A6BC;
+    /* color: #be2835; */
+    padding:15px 0;
+}
+
+/* Graphic */
+
+#graphic{
+    padding:8rem 0 4.25rem 0;
+}
+
+#design-withus{
+    padding-bottom: 4.25rem;
+}
+
+#design-services{
+    padding:4.25rem 0;
+    background-color: #f6f6f6;
+}
+
+#design-services .round-card, #data-entry .we-provide .round-card, #digital-marketing .round-card{
+    border-radius: 1rem !important;
+    background-color: white;
+    text-align: center;
+}
+
+#design-services .shadow-lg, #data-entry .we-provide .shadow-lg, #digital-marketing .shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+#our-designs{
+    padding:4.25rem 0;
+}
+
+#more-graphic{
+    padding:4.25rem 0;
+    background-color: #f6f6f6;
+}
+
+#website-designing{
+    padding: 4.25rem 0;
+}
+
+#digital-marketing{
+    padding:4.25rem 0;
+    background-color: #f6f6f6;
+}
+
+#digital-marketing .seo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content-marketing{
+    padding:4.25rem 0;
+    /* background-color: #f6f6f6; */
+}
+
+#content-marketing .card{
+    border: none;
+    /* background-color: #f6f6f6; */
+}
+
+#content-marketing .card-text{
+    text-align: center;
+    font-weight: 500;
+    color: #0B2471;
+    text-shadow: 2px 2px 5px powderblue;
+}
+
+#software-designing{
+    padding-bottom: 4.25rem;
+}
+
+#software-designing .content, #vfx .content, #development .content{
+    padding: 2rem;
+    color:white;
+    text-align: center;
+    background-color: #09A6BC;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 9rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+#vfx{
+    padding:4.25rem 0;
+}
+
+#data-entry{
+    padding:4.25rem 0;
+    background-color: #f6f6f6;
+}
+
+#data-entry .we-provide .card-body{
+    display: flex;
+    align-items: center;
+}
+
+#data-entry .card{
+    border-radius: 1rem !important;
+    background-color: white;
+}
+
+#bpo{
+    padding:4.25rem 0;
+}
+
+#bpo .card{
+    border-color: #f6f6f6;
+    border-radius: 1rem;
+    background-color: #f6f6f6;
+}
+
+#inbound{
+    padding:4.25rem 0;
+    background-color: #f6f6f6;
+}
+
+#inbound .card{
+    background-color: white;
+}
+
+#inbound .fas, #outbound .fas{
+    font-size: 3rem;
+    color:#09A6BC;
+}
+
+#inbound h4, #outbound h4{
+    text-align: center;
+}
+
+#outbound{
+    padding:4.25rem 0;
+}
+
+#outbound .card{
+    background-color: #f6f6f6;
+}
+
+#kpo{
+    padding:4.25rem 0;
+    background-color: #f6f6f6;
+}
+
+#kpo .card{
+    width: 100%;
+}
+
+/*footer*/
+
+#footer{
+    padding:2rem 0;
+    background-color: #484848;
+    color: #fff;
+}
+
+#footer img{
+    margin-bottom: 1rem;
+}
+
+#footer a{
+    color:#fff;
+}
+
+#footer .fas, #footer .fab{
+    padding: 0 6px;
+    
+}
+
+#footer p{
+    margin-bottom:0.5rem;
+}
+
+#footer .smallIcons{
+    font-size: 0.8rem;
+}
