@@ -81,7 +81,16 @@ body p{
         display: block;
     }
 
+    #footer .logo ul{
+        display: flex;
+        justify-content: center;
+    }
+
     #footer p, #footer h3, #footer li{
+        text-align: center;
+    }
+
+    #footer h4{
         text-align: center;
     }
 }
