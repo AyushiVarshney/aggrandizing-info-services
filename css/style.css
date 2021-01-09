@@ -19,6 +19,12 @@ body p{
     margin-bottom:15px;
 }
 
+@media (max-width: 992px){
+    #footer .icon{
+        margin-left: 1rem;
+    }
+}
+
 @media (max-width: 768px){
     #home .first, .second, .third{
         margin-bottom: 1rem;
@@ -81,7 +87,8 @@ body p{
         display: block;
     }
 
-    #footer .logo ul{
+    #footer .icon{
+        margin-left: unset;
         display: flex;
         justify-content: center;
     }
@@ -461,6 +468,10 @@ body p{
 
 #footer .smallIcons{
     font-size: 0.8rem;
+}
+
+#footer .icon{
+    margin-left:2rem;
 }
 
 #our-clients{
