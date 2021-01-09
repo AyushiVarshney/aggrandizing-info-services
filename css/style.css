@@ -453,3 +453,27 @@ body p{
 #footer .smallIcons{
     font-size: 0.8rem;
 }
+
+#our-clients{
+    padding: 4.25rem 0;
+}
+
+#our-clients img{
+    box-shadow: 0 1rem 1rem rgba(0,0,0,.275)!important;
+}
+
+.owl-carousel .owl-nav button{
+    font-size: 4rem !important;
+    margin: 0.5rem 1rem !important;
+}
+
+.owl-carousel .owl-nav button:hover{
+    background: white !important;
+    color: black !important;
+}
+
+.owl-carousel .owl-nav button:focus{
+    background: white !important;
+    color: black !important;
+    outline: none !important;
+}
